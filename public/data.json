@@ -1,0 +1,58 @@
+[
+  {
+    "id": "64a038f54813d9f9206cd22d",
+    "quantity": 0,
+    "picture": "https://www.ionos.com/digitalguide/fileadmin/_processed_/9/2/csm_was-ist-html5-t_f77e102235.webp",
+    "time": 2,
+    "name": "HTML",
+    "gender": "female"
+  },
+  {
+    "id": "64a038f57531412349ebcf14",
+    "quantity": 1,
+    "picture": "https://w7.pngwing.com/pngs/454/464/png-transparent-css3-cascading-style-sheets-logo-html-markup-language-others-miscellaneous-blue-angle-thumbnail.png",
+    "time": 5,
+    "name": "CSS",
+    "gender": "male"
+  },
+  {
+    "id": "64a038f529a661a2df9aaf6f",
+    "quantity": 2,
+    "picture": "https://www.tutorialrepublic.com/lib/images/bootstrap-5.0-illustration.png",
+    "time": 4,
+    "name": "Bootstrap",
+    "gender": "male"
+  },
+  {
+    "id": "64a038f5221f26f3ba4ade58",
+    "quantity": 3,
+    "picture": "https://laravelnews.s3.amazonaws.com/images/tailwindcss-1633184775.jpg?w=1366&h=683&q=90&auto=format&fit=crop",
+    "time": 3,
+    "name": "Tailwind Css",
+    "gender": "male"
+  },
+  {
+    "id": "64a038f51d598b2cc5154d27",
+    "quantity": 4,
+    "picture": "https://www.w3docs.com/uploads/media/default/0001/05/4482fe09d95a0be765154b9cefff5e07f7fc32ff.png",
+    "time": 1,
+    "name": "Javascript",
+    "gender": "male"
+  },
+  {
+    "id": "64a038f517fdd167318ea1c5",
+    "quantity": 5,
+    "picture": "https://www.mobinius.com/wp-content/uploads/2020/02/reactjs-2.png",
+    "time": 3,
+    "name": "React",
+    "gender": "male"
+  },
+  {
+    "id": "64a038f5a61acedc87eafffe",
+    "quantity": 6,
+    "picture": "https://www.educative.io/cdn-cgi/image/f=auto,fit=contain,w=1200/api/page/6452289848475648/image/download/5294398307303424",
+    "time": 1,
+    "name": "Next.js",
+    "gender": "female"
+  }
+]

@@ -1,0 +1,81 @@
+.cart-container{
+    background-color: #d19bdf;
+    position: sticky;
+    top: 0;
+}
+.about-me{
+    display: flex;
+    justify-content: center;
+}
+.about-me img{
+    width: 100px;
+    border-radius: 50%;
+}
+.about{
+    margin-top: 10px;
+}
+.about-me h3{
+    margin-bottom: 0;
+}
+.about-me p{
+    margin-top: 0;
+    font-size: 16px;
+}
+.about-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 80px;
+    background-color: #d1d59c;
+}
+.details{
+    background-color: rgb(124, 216, 199);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+
+}
+.details p{
+    margin: 0;
+}
+hr{
+    width: 80%;
+}
+.add-break{
+    background-color: #6f6c72;
+    display: flex;
+    justify-content: space-evenly;
+}
+.add-break p{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 50%;
+}
+.title{
+    margin-bottom: 0;
+}
+.calculate-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.practice-time{
+    width: 90%;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #6c6868;
+}
+.break-time{
+        width: 90%;
+        display: flex;
+        border-radius: 20px;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #6c6868;
+        margin-top: 10px;
+}
