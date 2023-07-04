@@ -1,8 +1,9 @@
 import React from 'react';
+import './Questions.css';
 
 const Questions = () => {
     return (
-        <div>
+        <div className='question-container'>
             <div>
                 <h1>How does React Work?</h1>
                 <p>React creates a VIRTUAL DOM in memory. Instead of manipulating the browser's DOM directly, React creates a virtual DOM in memory, where it does all the necessary manipulating, before making the changes in the browser DOM. React only changes what needs to be changed!</p>
@@ -15,7 +16,7 @@ const Questions = () => {
                 <h1>what is react useeffect used for without side effect?</h1>
                 <p>1-Initializing variables: You can use useEffect to initialize variables or state variables when the component mounts, without performing any actions that would be considered side effects. 
                 
-                2-Subscribing to context or props changes: useEffect can be used to subscribe to changes in context values or props passed to a component, even if you don't have any side effects to perform. 
+                2-Subscribing to context or props changes: useEffect can be used to subscribe to changes in context values or props passed to a component, even if you don't have any side effects to perform.
                     
                 3-Cleanup tasks: useEffect can also be used for cleanup tasks when the component unmounts, even if there are no side effects during the component's lifecycle.
                 </p>

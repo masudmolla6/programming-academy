@@ -83,7 +83,8 @@ hr{
         margin-top: 10px;
 }
 .complete-btn{
-    margin-top: 50px;
+    margin-top: 40px;
+    padding-bottom: 20px;
 }
 .complete-btn button{
     width: 90%;
