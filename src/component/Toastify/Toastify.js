@@ -3,7 +3,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Toastify = () => {
-    const notify = () => toast("Successfull");
+    const notify = () => toast("Alhamdulillah Successfull");
     return (
         <div>
             <button onClick={notify}>Activity Completed</button>

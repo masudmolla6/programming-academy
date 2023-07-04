@@ -7,7 +7,7 @@ const Subject = ({ subject, addToCartBtn }) => {
         <div className='subject-cart'>
             <img src={picture} alt="" />
             <h3>{name}</h3>
-            <h3>Time Requried:{time} hour</h3>
+            <h3>Time Requried: {time} <small>Hour</small></h3>
             <button className='add-btn' onClick={()=>addToCartBtn(subject)}>Addd To List</button>
         </div>
     );
