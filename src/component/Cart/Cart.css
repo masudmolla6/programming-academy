@@ -28,13 +28,13 @@
     margin-top: 20px;
     width: 100%;
     height: 80px;
-    background-color: #d1d59c;
+    background-color: #6b6a6c;
 }
 .details{
-    background-color: rgb(124, 216, 199);
-    padding: 10px;
-    border-radius: 20px;
-    color: white;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 50%;
+    color: black;
 
 }
 .details p{

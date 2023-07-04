@@ -1,24 +1,26 @@
 import React, { useEffect, useState } from 'react';
 import image from '../../image/Gallery_1655011012433-removebg-preview.png'
 import './Cart.css'
-import { addToDb,getBreakTime } from '../utilities/fakeDb';
+import { addToDb, getBreakTime } from '../utilities/fakeDb';
 
 
 const Cart = ({ sub }) => {
     const [breakTime, setBreakTime] = useState(0);
 
-    useEffect(() => {
-        const storedCart = getBreakTime();
-        for (const value in storedCart) {
-            console.log(value);
-        }
-    },[])
-
     const addBreakBtn = (value) => {
         setBreakTime(value)
         addToDb(value);
     }
-    
+
+    useEffect(() => {
+        const ldb = localStorage.getItem('break-time');
+        const storedCart = JSON.parse(ldb);
+        for (const time in storedCart) {
+            setBreakTime(time);
+        }
+    },[breakTime])
+
+
     let time = 0;
     for (const item of sub) {
         time = time + item.time;

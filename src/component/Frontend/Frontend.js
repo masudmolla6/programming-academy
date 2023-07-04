@@ -16,7 +16,7 @@ const Frontend = () => {
     }, [])
     
     const addToCartBtn = (clickSubject) => {
-        console.log(clickSubject);
+        // console.log(clickSubject);
         const newSub = [...sub, clickSubject];
         setSub(newSub);
     }
