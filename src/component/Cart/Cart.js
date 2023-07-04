@@ -78,6 +78,9 @@ const Cart = ({ sub }) => {
                     </div>
                 </div>
             </div>
+            <div>
+                <button>Activity Completed</button>
+            </div>
         </div>
     );
 };
