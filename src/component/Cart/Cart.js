@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import image from '../../image/Gallery_1655011012433-removebg-preview.png'
 import './Cart.css'
 import { addToDb, getBreakTime } from '../utilities/fakeDb';
+import { ToastContainer, toast } from 'react-toastify';
+import Toastify from '../Toastify/Toastify';
 
 
 const Cart = ({ sub }) => {
@@ -10,6 +12,9 @@ const Cart = ({ sub }) => {
     const addBreakBtn = (value) => {
         setBreakTime(value)
         addToDb(value);
+    }
+    const toastify = () => {
+        toast("successfull");
     }
 
     useEffect(() => {
@@ -78,8 +83,8 @@ const Cart = ({ sub }) => {
                     </div>
                 </div>
             </div>
-            <div>
-                <button>Activity Completed</button>
+            <div className='complete-btn'>
+                <Toastify></Toastify>
             </div>
         </div>
     );

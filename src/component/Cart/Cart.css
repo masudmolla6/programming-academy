@@ -79,3 +79,14 @@ hr{
         background-color: #6c6868;
         margin-top: 10px;
 }
+.complete-btn{
+    margin-top: 50px;
+}
+.complete-btn button{
+    width: 90%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: rgb(71, 104, 223);
+}
