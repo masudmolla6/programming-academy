@@ -25,7 +25,7 @@ const Frontend = () => {
             <div>
                 <Header></Header>
                 <div className='subjects-area'>
-                    <h1>Select Todays's Practice</h1>
+                    <h1 className='select-title'>Select Todays's Practice</h1>
                     <div className="subject-container">
                         {
                             subjects.map(subjec => <Subject
